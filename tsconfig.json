@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es2016",
+      "module": "commonjs",  // Use 'commonjs' para compatibilidade com Node.js
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./build",   // Saída dos arquivos compilados
+      "rootDir": "./src"     // Diretório de entrada dos arquivos TypeScript
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+  }
